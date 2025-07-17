@@ -8,11 +8,10 @@ This repository contains the code, data, and documentation for a comprehensive s
 **Objective**: To model and map spatial variation in suicide incidence across Chicago using land cover diversity, park access, tree equity, social vulnerability, and other built-environment indicators.
 
 **Methods**:
-- Descriptive epidemiology and visual analytics of Medical Examiner death data
+- Spatial epidemiology of suicide deaths in Cook County
 - Spatial Poisson and BYM models (INLA and CARBayes)
 - Interaction testing and exceedance probability mapping
 - Geovisualizations of high-risk clusters and built environment characteristics
-- Partial dependence plots (PDPs) to evaluate marginal and moderated effects
 
 ## Data Sources
 
@@ -20,7 +19,7 @@ This repository contains the code, data, and documentation for a comprehensive s
 - NLCD Land Cover and Land Cover Diversity
 - Urban Tree Canopy and Tree Equity Index
 - Park Priority Index and park access buffers
-- SafeGraph Travel Times to Amenities
+- Travel times from Transit Equity Dashboard
 - Area Deprivation Index (ADI), American Community Survey (ACS)
 - Custom shapefiles for environmental exposures
 
